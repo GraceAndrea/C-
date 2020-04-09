@@ -1,0 +1,40 @@
+#include<stdio.h>
+#include<stdlib.h>
+//#include<conio.h>
+
+main(){
+	char nombre[11];
+	char apellido[13];
+	
+  int suma; 
+  int valor1;	//declaro variables
+  int valor2;
+	
+	printf("Ingrese su nombre:");
+	scanf("%s", & nombre);
+	
+	printf("Ingrese su apellido:");
+	scanf("%s", & apellido);
+
+	printf("Mis nombre es: %s \n",nombre);
+	printf("Mi apellido es: %s \n",apellido);
+	
+	printf("Ingrese valores para ingresar la suma \n");
+	printf("Ingrese el valor numero 1: ");
+	scanf("%d", & valor1);
+	
+	printf("Ingrese el valor numero 2: ");
+	scanf("%d", & valor2);
+	//valor1=10; valor2=15; //asigno un valor
+		
+	// printf("Hello World");
+	//printf("\n");
+	//printf("Hello you");
+	//printf("\n");
+	suma = valor1 + valor2; //operación
+	
+	printf("-----------Proceso de suma------\n");
+	printf("El primer número es: %d \n",valor1);
+	printf("El segundo número es: %d \n",valor2);
+	printf("El resultado de la suma es: %d", suma);
+}
